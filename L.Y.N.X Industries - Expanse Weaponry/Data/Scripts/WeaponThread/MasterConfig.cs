@@ -9,7 +9,7 @@
             // Enable your config files using the follow syntax, don't include the ".cs" extension:
             // ConfigFiles(Your1stConfigFile, Your2ndConfigFile, Your3rdConfigFile);
 
-            ConfigFiles(nariman_def);
+            ConfigFiles(avengerGatling_def, hermesRail1_def, twinrail_def, thor_01_def, stallionRail_def, nariman_def);
         }
     }
 }

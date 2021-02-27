@@ -15,6 +15,11 @@
 	 <ItemIds>
 
         <string>LargeMissileTurret/nariman</string>
+        <string>LargeGatlingTurret/avengerGatling1</string>
+        <string>LargeMissileTurret/twinrail</string>
+        <string>LargeMissileTurret/hermesRail1</string>
+        <string>LargeMissileTurret/thor_cannon_01</string>
+        <string>LargeMissileTurret/stallionRail</string>
 
 	 </ItemIds>
 

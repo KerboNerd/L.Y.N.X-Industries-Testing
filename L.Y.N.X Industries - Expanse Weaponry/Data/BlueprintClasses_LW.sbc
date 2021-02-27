@@ -9,6 +9,10 @@
   <BlueprintClassEntries>
   	
     <Entry Class="Components" BlueprintSubtypeId="nariman70box" />
+    <Entry Class="Components" BlueprintSubtypeId="autocannon185box" />
+    <Entry Class="Components" BlueprintSubtypeId="railgun265projectile" />
+    <Entry Class="Components" BlueprintSubtypeId="railgun35projectile" />
+    <Entry Class="Components" BlueprintSubtypeId="flak635" />
 
   </BlueprintClassEntries>
 </Definitions>
