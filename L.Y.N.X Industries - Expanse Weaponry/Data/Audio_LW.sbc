@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcNarimanShotMuffled</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>800</MaxDistance>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\nariman\ArcNarimanShotMuffled1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\nariman\ArcNarimanShotMuffled2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\nariman\ArcNarimanShotMuffled3.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcNarimanShotNormal</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>300</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="230" Sound="ArcNarimanShotMuffled" />
+      </DistantSounds>
+      <Volume>0.8</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\nariman\ArcNarimanShotNormal1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\nariman\ArcNarimanShotNormal2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\nariman\ArcNarimanShotNormal3.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+
+  </Sounds>
+</Definitions>
